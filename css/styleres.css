@@ -1,3 +1,87 @@
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+nav {
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    width: 94%;
+    margin: auto;
+    border-radius: 30px;
+}
+em {
+    font-weight: bold;
+}
+.main-head {
+    padding-left: 1rem;
+    margin-top: 4px;
+}
 .slide{
     height: 600px;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: end;
+}
+.for-height {
+    height: 50px;
+}
+.for-link {
+    font-size: 20px;
+}
+.for-margin {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.card-main {
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+}
+.for-car-img {
+    height: 550px;
+}
+.card-img-top {
+    height: 290px;
+}
+.for-about {
+    width: 90%;
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 5rem;
+}
+.about-head {
+    font-size: 35px;
+    padding: 1rem 0;
+}
+.about-txt {
+    font-size: 20px;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    .for-sizing {
+        font-size: 19px;
+    }
+    .slide {
+        margin-left: 0.5rem;
+        margin-right: 0.9rem;
+    }
+    .main-head {
+        margin-top: 7px;
+    }
+    .for-about {
+        width: 92.5%;
+        
+    }
+    .about-head {
+        font-size: 25px;
+    }
+    .about-txt {
+        font-size: 14px;
+    }
 }
