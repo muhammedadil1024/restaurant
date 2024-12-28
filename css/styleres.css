@@ -42,9 +42,11 @@ em {
     transition: .2s ease-in-out;
 }
 .for-car-img {
+    object-fit: cover;
     height: 550px;
 }
 .card-img-top {
+    object-fit: cover;
     height: 290px;
 }
 .for-about {
